@@ -39,7 +39,7 @@ function getInfo(evt) {
       if (data.length < 1) {
         Report.failure(
           'Error',
-          "We can't find any information about this breed:( Try find another breed.",
+          'Sorry we have no information about this breed:((((',
           'Ok'
         );
         loaderEl.classList.add('hidden');
@@ -55,7 +55,7 @@ function getInfo(evt) {
       loaderEl.classList.add('hidden');
       Report.failure(
         'Error',
-        'Oops! Something went wrong! Please try reload the page!',
+        'Oops! Something went wrong! Please try egain!',
         'Ok'
       );
     });
